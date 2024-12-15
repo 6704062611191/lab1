@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main() {
-	int a = 150;
-	int b = 72;
-	if ( a > b ) {
-		printf( "a is greater than b" );
-	}
-	if ( b > a ) {
-		printf( "b is greater than a" );
-	}		
+	int n1, n2;
+    scanf("%d %d", &n1, &n2);
+	if ( n1 > n2 ) {
+		printf( "n1 is greater than n2" );
+        printf( "\n%d", (n1-n2) );
+	} else {
+		printf( "n2 is greater than n1 " );
+        printf( "\n%d", (n2-n1) );
+	}	
 }
-
